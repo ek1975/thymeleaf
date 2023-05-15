@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf Demo</title></head>
+<link rel="stylesheet" th:href="@{/css/demo.css}" />
+<!-- @ refers to app context path -->
+<body>
+    <p th:text="'Current time is: ' + ${curTime}" class="funny"/>
+</body>
+</html>
